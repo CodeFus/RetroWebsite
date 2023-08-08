@@ -1,0 +1,56 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+  header {
+    background-color: #F9B872; /* Set your preferred background color for the header */
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /*z-index: 999; /* Use a high z-index to ensure the header is on top of other elements */
+    
+}
+  .navbar {
+    
+    background-color:#3f3333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .logo a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  .logo p{
+    font-family: 'Russo One';
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+    font-family: 'Russo One';
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .nav-links li a:hover {
+    color: #ff6f00;
+  }
+  

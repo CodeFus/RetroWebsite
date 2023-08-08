@@ -1,0 +1,101 @@
+/*importion of poppins font started*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+/*importion ended*/
+
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Set background color for the whole body */
+
+    /* Apply CSS reset to the entire page */
+body {
+    margin: 0;
+    padding: 0;
+    /* Set the background image and its properties */
+    background-image: url('../images/bc.jpeg');
+    background-size: cover; /* Adjust background-size as needed (cover, contain, auto, etc.) */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    background-position: center center; /* Position the background image in the center */
+    /* Optionally, you can add a background color in case the image is not fully visible */
+    text-align: center;
+    justify-content: center;
+}
+
+/* Grid installation */
+div.parent{
+    margin-top: 70px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+div.rest{
+    width: auto;
+    height: 100px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Center the content in the container */
+.container {
+    margin-top:70px ;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 100px;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 5px;
+    box-shadow: 0  3rem 8rem rgba(0,0,0,.1);
+    background-color: #178582;
+}
+
+/*.container:hover{
+    margin-top: 20px;
+    width: 100%;
+    max-width: 400px;
+    background-color: #178582;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 5px;
+    box-shadow: 0 4rem 8rem rgba(0,0,0,.5);
+    transform: translateY(-0.5%);
+}*/
+
+h1{
+    color: white;
+}
+
+/* You can customize these styles to make the button beautiful according to your preference */
+.beautiful-button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    
+}
+
+/* Add hover and active states to create interactive effects */
+.beautiful-button:hover {
+    background-color: #2980b9;
+}
+
+.beautiful-button:active {
+    background-color: #1f618d;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Ysabeau+Office:wght@300;400;500;700&display=swap');
+body{
+    background-image: url(../images/stars.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    color: white;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ysabeau Office', sans-serif;
+    padding-top: 60px;
+
+    
+}
+button{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 200px;
+    height: 100px;
+    font-size: large;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    font-size: large;
+}
+footer{
+    margin-top: auto;
+    
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
